@@ -1,10 +1,21 @@
-# Ruka pomoci — premium web
+# Ruka pomoci — web
 
-- `index.html` — produkční verze se samostatnými assety (vhodná pro GitHub / hosting).
-- `ruka-pomoci-premium.html` — samostatná demo verze v jednom HTML souboru, obrázky jsou vložené přímo do souboru.
-- `assets/hero-world.webp` — hlavní HERO vizuál.
-- `assets/hero-ukraine.webp` — vizuál pro sekci Ukrajina.
-- `logo-rukapomoci.png` — plné logo.
-- `brandmark.png` — barevný symbol použitý v tmavé hlavičce.
+Statický web spolku Ruka pomoci, publikovaný přes GitHub Pages:
+https://escobarinc.github.io/ruka-pomoci-web/
 
-Platební funkce je záměrně vypnutá, dokud nebudou doplněny ověřené údaje sbírkového účtu a právní údaje spolku.
+## Struktura
+
+- `index.html` — celý web (HTML, CSS i JS v jednom souboru).
+- `assets/hero-map-light.png` — hlavní HERO vizuál (mapa krizových ohnisek).
+- `assets/hero-ukraine.png` — vizuál pro sekci O nás / Ukrajina.
+- `assets/aquaplus/` — fotografie systému SAFE WATER a produktů AQUA PLUS (zdroj: aquaplus.cz).
+- `assets/og-image.jpg` — náhledový obrázek při sdílení odkazu (1200 × 630).
+- `favicon.png`, `apple-touch-icon.png` — ikony webu.
+- `logo-rukapomoci.png` — plné logo, `brandmark.png` — barevný symbol v hlavičce.
+
+## Před spuštěním sbírky
+
+Platební funkce je záměrně vypnutá, dokud nebudou doplněny ověřené údaje sbírkového účtu
+a právní údaje spolku (v `index.html` hledejte `TODO`).
+
+Při změně domény upravte absolutní URL v meta tazích `og:url` a `og:image`.
